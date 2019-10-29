@@ -24,6 +24,20 @@ p{
     padding:0;
 }
 
+.imgResize{
+    margin:0;
+    padding-left:1px;
+}
+
+.imgResize2{
+    margin:0;
+    padding-left:1px;
+}
+
+.txtCenter{
+    text-align:center;
+}
+
 .txtPush{
     text-align: end;
 }
