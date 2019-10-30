@@ -1,12 +1,12 @@
 
+
 @font-face {
-    font-family: "mon-regular";
-    src: url("../fonts/Montauk-Regular.otf");
+    font-family: mon-regular;
+    src: url("../fonts/Montauk-Regular.otf") format("opentype");
 }
 
-@font-face{
-    font-family: "mon-bold";
-    src: url("../fonts/Montauk-Bold.otf");
+.font {
+    font-family: 'mon-regular';
 }
 
 body,
@@ -130,3 +130,6 @@ p{
     background-color: white;
 }
 
+.bottom-margin{
+    margin-bottom:3rem;
+}
