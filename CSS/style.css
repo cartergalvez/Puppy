@@ -29,6 +29,15 @@ html {
     height: 100%;
 }
 
+.colPadding{
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.img-border{
+    border: solid 5px white;
+}
+
 /* The hero image */
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
