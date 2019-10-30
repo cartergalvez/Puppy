@@ -69,6 +69,20 @@ p{
     margin-right: 1em;
 }
 
+
+
+
+.colPadding{
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.img-border{
+    border: solid 5px white;
+}
+
+/* The hero image */
+
 .hero-image {
     background-image: url("../images/homeHero.jpg");
 
@@ -95,4 +109,21 @@ p{
 }
 .myBB{
     border-bottom:solid 1PX;
+}
+.margin{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+ }
+ .vertical{
+    display: Flex;
+    flex-direction: column;
+ }
+
+.right{
+    justify-content:right;
+}
+
+.text-left{
+    text-align: left;
+    background-color: white;
 }
