@@ -29,11 +29,6 @@ p{
     padding-left:1px;
 }
 
-.imgResize2{
-    margin:0;
-    padding-left:1px;
-}
-
 .txtCenter{
     text-align:center;
 }
@@ -54,6 +49,13 @@ p{
     font-size:24px;
 }
 
+.no-padding{
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image:url('../images/cateringMaine.jpg');
+}
+
 .homeBg {
     background-color: white;
 }
@@ -62,17 +64,16 @@ p{
     margin-top: 5em;
 }
 
+
+
 .homeResize {
     margin-left: 1em;
     margin-right: 1em;
 }
 
-/* The hero image */
 .hero-image {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     background-image: url("../images/homeHero.jpg");
 
-    /* Set a specific height */
     height: 70%;
 
     /* Position and center the image to scale nicely on all screens */
