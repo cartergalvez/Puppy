@@ -43,3 +43,18 @@ html {
     background-size: cover;
     position: relative;
 }
+.space{
+    margin-top: 3rem;
+}
+
+.card  {
+    background-color: #ffffff00;
+    border: none;;
+}
+
+.card-body{
+    background-color: #ffffff;
+}
+.myBB{
+    border-bottom:solid 1PX;
+}
