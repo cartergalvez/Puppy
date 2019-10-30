@@ -1,6 +1,4 @@
-body {
-    background-image: url("../images/bgtexture.jpg");
-}
+
 
 .txtRecolor {
     color: #5F002B;
@@ -24,10 +22,6 @@ body {
     margin-right: 1em;
 }
 
-body,
-html {
-    height: 100%;
-}
 
 /* The hero image */
 .hero-image {
