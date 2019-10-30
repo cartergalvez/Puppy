@@ -1,14 +1,43 @@
-body {
+
+@font-face {
+    font-family: "mon-regular";
+    src: url("../fonts/Montauk-Regular.otf");
+}
+
+@font-face{
+    font-family: "mon-bold";
+    src: url("../fonts/Montauk-Bold.otf");
+}
+
+body,
+html {
+   
     background-image: url("../images/bgtexture.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+p{
+    margin:0;
+    padding:0;
+}
+
+.txtPush{
+    text-align: end;
 }
 
 .txtRecolor {
     color: #5F002B;
+    font-family: mon-bold;
 }
 
 .nav-link {
     color: #5F002B;
     font-weight: bold;
+    font-family: mon-regular;
+    font-size:24px;
 }
 
 .homeBg {
@@ -22,11 +51,6 @@ body {
 .homeResize {
     margin-left: 1em;
     margin-right: 1em;
-}
-
-body,
-html {
-    height: 100%;
 }
 
 /* The hero image */
@@ -43,6 +67,7 @@ html {
     background-size: cover;
     position: relative;
 }
+
 .space{
     margin-top: 3rem;
 }
