@@ -53,9 +53,10 @@ p{
 }
 
 .no-padding{
-    overflow: hidden;
+    height: auto;
+    width: 100%;
     background-size: cover;
-    background-position: center;
+    background-position: fill;
     background-image:url('../images/cateringMaine.jpg');
 }
 
@@ -134,4 +135,13 @@ p{
 .text-left{
     text-align: left;
     background-color: white;
+}
+.Fugaz{
+    font-family: 'Fugaz One', cursive;
+}
+.Monreg{
+    font-family: "mon-regular";
+}
+.Monbold{
+     font-family: "mon-bold";
 }
