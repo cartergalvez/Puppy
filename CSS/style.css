@@ -5,8 +5,14 @@
     src: url("../fonts/Montauk-Regular.otf") format("opentype");
 }
 
+
 .font {
     font-family: 'mon-regular';
+    
+}
+
+.fugaz{
+    font-family: 'Fugaz One';
 }
 
 body,
@@ -101,10 +107,10 @@ p{
     margin-top: 3rem;
 }
 
-.card  {
+/* .card  {
     background-color: #ffffff00;
-    border: none;;
-}
+    border: none;
+} */
 
 .card-body{
     background-color: #ffffff;
@@ -132,4 +138,16 @@ p{
 
 .bottom-margin{
     margin-bottom:3rem;
+}
+
+.c-text-color{
+    color: #5F002B;
+}
+
+.our-team{
+    font-size:"12px";
+}
+
+.custom-s{
+    padding:10px;
 }
