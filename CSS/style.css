@@ -1,12 +1,18 @@
 
+
 @font-face {
-    font-family: "mon-regular";
-    src: url("../fonts/Montauk-Regular.otf");
+    font-family: mon-regular;
+    src: url("../fonts/Montauk-Regular.otf") format("opentype");
 }
 
-@font-face{
-    font-family: "mon-bold";
-    src: url("../fonts/Montauk-Bold.otf");
+
+.font {
+    font-family: 'mon-regular';
+    
+}
+
+.fugaz{
+    font-family: 'Fugaz One';
 }
 
 @font-face{
@@ -24,6 +30,9 @@ html {
     background-position: center;
 }
 
+.txtBold{
+    font-family: "mon-bold";
+}
 p{
     margin:0;
     padding:0;
@@ -128,10 +137,10 @@ p{
     margin-top: 3rem;
 }
 
-.card  {
+/* .card  {
     background-color: #ffffff00;
-    border: none;;
-}
+    border: none;
+} */
 
 .card-body{
     background-color: #ffffff;
@@ -155,4 +164,20 @@ p{
 .text-left{
     text-align: left;
     background-color: white;
+}
+
+.bottom-margin{
+    margin-bottom:3rem;
+}
+
+.c-text-color{
+    color: #5F002B;
+}
+
+.our-team{
+    font-size:"12px";
+}
+
+.custom-s{
+    padding:10px;
 }
