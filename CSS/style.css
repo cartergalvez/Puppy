@@ -24,6 +24,9 @@ html {
     background-position: center;
 }
 
+.txtBold{
+    font-family: "mon-bold";
+}
 p{
     margin:0;
     padding:0;
