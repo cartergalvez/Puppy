@@ -1,7 +1,7 @@
 
 
 @font-face {
-    font-family: mon-regular;
+    font-family: "mon-regular";
     src: url("../fonts/Montauk-Regular.otf") format("opentype");
 }
 
@@ -180,4 +180,15 @@ p{
 
 .custom-s{
     padding:10px;
+}
+
+.Mycard  {
+    background-color: #ffffff00;
+    border: none;
+}
+.card-body{
+    background-color: #ffffff;
+}
+.Myspace{
+    margin-bottom: 112px;
 }
