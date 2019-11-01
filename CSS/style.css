@@ -97,6 +97,9 @@ p{
     font-size: 20px;
     font-family: mon-light;
 }
+.fugaz{
+     font-family: 'Fugaz One', cursive;
+}
 
 .fugazLg{
     font-size: 40px;
@@ -107,7 +110,15 @@ p{
     font-size: 15px;
     font-family: 'Fugaz One', cursive;
 }
+.monregL{
+ font-family: "mon-regular"; 
+ font-size: 25px;
 
+}
+.monregM{
+ font-family: "mon-regular"; 
+ font-size: 18px;
+}
 /* The hero image */
 
 .hero-image {
