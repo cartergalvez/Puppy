@@ -1,12 +1,18 @@
 
+
 @font-face {
-    font-family: "mon-regular";
-    src: url("../fonts/Montauk-Regular.otf");
+    font-family: mon-regular;
+    src: url("../fonts/Montauk-Regular.otf") format("opentype");
 }
 
-@font-face{
-    font-family: "mon-bold";
-    src: url("../fonts/Montauk-Bold.otf");
+
+.font {
+    font-family: 'mon-regular';
+    
+}
+
+.fugaz{
+    font-family: 'Fugaz One';
 }
 
 @font-face{
@@ -91,6 +97,9 @@ p{
     font-size: 20px;
     font-family: mon-light;
 }
+.fugaz{
+     font-family: 'Fugaz One', cursive;
+}
 
 .fugazLg{
     font-size: 40px;
@@ -101,7 +110,15 @@ p{
     font-size: 15px;
     font-family: 'Fugaz One', cursive;
 }
+.monregL{
+ font-family: "mon-regular"; 
+ font-size: 25px;
 
+}
+.monregM{
+ font-family: "mon-regular"; 
+ font-size: 18px;
+}
 /* The hero image */
 
 .hero-image {
@@ -120,10 +137,10 @@ p{
     margin-top: 3rem;
 }
 
-.card  {
+/* .card  {
     background-color: #ffffff00;
-    border: none;;
-}
+    border: none;
+} */
 
 .card-body{
     background-color: #ffffff;
@@ -148,12 +165,19 @@ p{
     text-align: left;
     background-color: white;
 }
-.Fugaz{
-    font-family: 'Fugaz One', cursive;
+
+.bottom-margin{
+    margin-bottom:3rem;
 }
-.Monreg{
-    font-family: "mon-regular";
+
+.c-text-color{
+    color: #5F002B;
 }
-.Monbold{
-     font-family: "mon-bold";
+
+.our-team{
+    font-size:"12px";
+}
+
+.custom-s{
+    padding:10px;
 }
