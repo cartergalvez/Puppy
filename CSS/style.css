@@ -195,3 +195,10 @@ p{
 .Myspace{
     margin-bottom: 112px;
 }
+#myPhoto{
+   background-image: url("/images/AboutMain.jpg");
+    background-position: center;
+     height: 665px;
+     
+     margin-right: 20px;
+}
